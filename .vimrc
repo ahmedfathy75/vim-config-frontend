@@ -421,7 +421,7 @@ let g:closetag_filenames = "*.handlebars,*.html,*.xhtml,*.phtml"
 " Solarized
 
 " If You have problem with background, uncomment this line
-" let g:solarized_termtrans=1
+let g:solarized_termtrans=1
 
 "-------------------------
 " vim-airline
@@ -493,10 +493,10 @@ call arpeggio#map('i', '', 0, 'jk', '<ESC>')
 colorscheme solarized
 
 " Setting up light color scheme
-set background=light
+set background=dark
 
 " Set highlighting for colorcolumn
-highlight ColorColumn ctermbg=lightGrey
+highlight ColorColumn ctermbg=darkGrey
 
 "--------------------------------------------------
 " General options
